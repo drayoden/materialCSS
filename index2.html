@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Materialize CSS JS widgets</h1>
+        <h4>CAROUSEL</h4>
+        <p>Drag with mouse</p>
+        <div class="carousel">
+            <a href="#1!" class="carousel-item">
+                <img src="https://loremflickr.com/300/300/dog alt="">
+            </a>
+            <a href="#2!" class="carousel-item">
+                <img src="https://loremflickr.com/300/300/cat" alt="">
+            </a>
+            <a href="#3!" class="carousel-item">
+                <img src="https://loremflickr.com/300/300/bird" alt="">
+            </a>
+            <a href="#4!" class="carousel-item">
+                <img src="https://loremflickr.com/300/300/dog" alt="">
+            </a>
+            <a href="#5!" class="carousel-item">
+                <img src="https://loremflickr.com/300/300/cat" alt="">
+            </a>
+            <a href="#6!" class="carousel-item">
+                <img src="https://loremflickr.com/300/300/bird" alt="">
+            </a>
+            <a href="#7!" class="carousel-item">
+                <img src="https://loremflickr.com/300/300/nature" alt="">
+            </a>
+            <a href="#8!" class="carousel-item">
+                <img src="https://loremflickr.com/300/300/dog" alt="">
+            </a>
+            <a href="#9!" class="carousel-item">
+                <img src="https://loremflickr.com/300/300/cat" alt="">
+            </a>
+            <a href="#10!" class="carousel-item">
+                <img src="https://loremflickr.com/300/300/dog" alt="">
+            </a>
+        </div>
+
+        <h4>CAROUSEL FULL SLIDER</h4>
+        <p>Drag with mouse</p>
+        <div class="carousel carousel-slider">
+            <a href="#1!" class="carousel-item">
+                <img src="https://loremflickr.com/800/400/dog alt="">
+            </a>
+            <a href="#2!" class="carousel-item">
+                <img src="https://loremflickr.com/800/400/cat" alt="">
+            </a>
+            <a href="#3!" class="carousel-item">
+                <img src="https://loremflickr.com/800/400/bird" alt="">
+            </a>
+            <a href="#4!" class="carousel-item">
+                <img src="https://loremflickr.com/800/400/dog" alt="">
+            </a>
+            <a href="#5!" class="carousel-item">
+                <img src="https://loremflickr.com/800/400/cat" alt="">
+            </a>
+            <a href="#6!" class="carousel-item">
+                <img src="https://loremflickr.com/800/400/bird" alt="">
+            </a>
+            <a href="#7!" class="carousel-item">
+                <img src="https://loremflickr.com/800/400/nature" alt="">
+            </a>
+            <a href="#8!" class="carousel-item">
+                <img src="https://loremflickr.com/800/400/dog" alt="">
+            </a>
+            <a href="#9!" class="carousel-item">
+                <img src="https://loremflickr.com/800/400/cat" alt="">
+            </a>
+            <a href="#10!" class="carousel-item">
+                <img src="https://loremflickr.com/800/400/dog" alt="">
+            </a>
+        </div>
+
+        <h4>COLLAPSIBLE</h4>
+        <ul class="collapsible" data-collapsible="accordion">
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, eum?</span></div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, eum?</span></div>
+            </li>
+
+            <li class="active">
+                <div class="collapsible-header"><i class="material-icons">whatshot</i>Third (active on load)</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, eum?</span></div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">adb</i>Fourth</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, eum?</span></div>
+            </li>
+
+        </ul>
+
+        <h4>TOASTS</h4>
+        <p>also see onload toast...</p>
+        <a onclick="M.toast({html:'Post Saved', displayLength: 1000, classes:'rounded'})" class="btn">Toast!</a>
+
+        <h4>TOOLTIPS</h4>
+        <a href="" class="btn tooltipped" data-position="top" data-tooltip="Now you see me...T">Hover me</a>
+        <a href="" class="btn tooltipped" data-position="left" data-tooltip="Now you see me...L">Hover me</a>
+        <a href="" class="btn tooltipped" data-position="right" data-tooltip="Now you see me...R">Hover me</a>
+        <a href="" class="btn tooltipped" data-position="bottom" data-tooltip="Now you see me...B">Hover me</a>
+
+        <h4>DROPDOWN</h4>
+        <!-- Dropdown Trigger -->
+        <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
+
+        <!-- Dropdown Structure -->
+        <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a href="#!">three</a></li>
+            <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+        </ul>
+
+        <h4>MATERIAL BOXED</h4>
+        <img src="https://loremflickr.com/400/400/dog" alt="" class="materialboxed" data-caption="-- CAPTION --">
+
+        <h4>SLIDER</h4>
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="https://loremflickr.com/500/200?random=1" alt="">
+                    <div class="caption center-align">
+                        <h3>This is the tagline</h3>
+                        <h5 class="light grey-text text-lighten-3">Slogan goes here 1</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://loremflickr.com/500/200?random=2" alt="">
+                    <div class="caption left-align">
+                        <h3>This is the tagline</h3>
+                        <h5 class="light grey-text text-lighten-3">Slogan goes here 2</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://loremflickr.com/500/200?random=3" alt="">
+                    <div class="caption right-align">
+                        <h3>This is the tagline</h3>
+                        <h5 class="light grey-text text-lighten-3">Slogan goes here 4/h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://loremflickr.com/500/200?random=4" alt="">
+                    <div class="caption center-align">
+                        <h3>This is the tagline</h3>
+                        <h5 class="light grey-text text-lighten-3">Slogan goes here 5</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://loremflickr.com/500/200?random=5" alt="">
+                    <div class="caption left-align">
+                        <h3>This is the tagline</h3>
+                        <h5 class="light grey-text text-lighten-3">Slogan goes here 6</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <h4>MODAL</h4>
+        <p>not working yet...</p>
+        <!-- Trigger -->
+        <a href="#modal1" class="btn waves-effect">modal1</a>
+        <a href="#modal2" class="btn waves-effect red">modal2</a>
+
+        <!-- Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Modal Header</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, fugit?</p>
+            </div>
+            <div class="modal-footer">
+                <a href="" class="modal-action modal-close waves-effect waves-green">Button</a>
+            </div>
+        </div>
+
+        <!-- Push everyting up so the last element is not directly on the bottom -->
+        <div style="height:500px"></div>
+
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Initialize various components -->
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel();
+            $('.carousel.carousel-slider').carousel({fullWidth:true});
+            $('.collapsible').collapsible();
+            M.toast({html:'Hello World!', displayLength:500}); 
+            $('.tooltipped').tooltip();
+            $('.dropdown-trigger').dropdown();
+            $('.materialboxed').materialbox();
+            $('.slider').slider(); 
+            $('.modal').modal();
+        }); 
+    </script>
+      
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
